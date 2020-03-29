@@ -14,7 +14,7 @@ source("FunctionsStackOverflowApi.R")
 #my_filename = string to be used as a part of the filename
 
 #For example
-query_string = "devops"#2208 items works for demo
+query_string = "[devops]"#2208 items works for demo
 my_filename = "devops_so"
 
 #get_stackOverFlowData = function(query_string, my_filename) {

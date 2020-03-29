@@ -8,7 +8,7 @@ rm(list=ls())
 #** A folder "data" will be created for saving files (if such folder does not exist)
 #** EDIT THE FOLLOWING LINE, set your own work directory
 #setwd("K:/My Documents/Projects/TrendMining_2017/TrendMining")
-setwd("E:/TrendMining")
+setwd("E:/TrendMining/source_code/TrendMining")
 my_work_dir = getwd()
 my_data_dir = "data"
 if (!file.exists(my_data_dir)) {
