@@ -30,7 +30,7 @@ my_filename = "devops"
   my_query_string = "TITLE-ABS-KEY(\""
   my_query_string = paste(my_query_string, query_string, sep="")
   #EDIT this line
-  my_query_string = paste(my_query_string, "\") ", sep="")
+  my_query_string = paste(my_query_string, "\") AND  ALL ( \"software\" )  AND  ( LIMIT-TO ( SUBJAREA ,  \"COMP\" )  OR  LIMIT-TO ( SUBJAREA ,  \"ENGI\" ) )", sep="")
   
   #Get articles and save those - we do not want to re-run the query
   my_articles = get_scopus_papers(my_query_string)
@@ -43,8 +43,8 @@ my_filename = "devops"
 
   #Remove copyright sign.
   abstract = my_articles$Abstract
-  abstract = gsub("Copyright ?+[^.]*[.]","",abstract)
-  abstract = gsub("?+[^.]*[.]","",abstract) # Depdenging on the enviroment or data you might need something different* 
+  abstract = gsub("Copyright ©+[^.]*[.]","",abstract)
+  abstract = gsub("©+[^.]*[.]","",abstract) # Depdenging on the enviroment or data you might need something different* 
   abstract = gsub("All rights reserved[.]","",abstract)
   abstract = gsub("All right reserved[.]","",abstract)
   abstract = gsub("No abstract available[.]","",abstract)

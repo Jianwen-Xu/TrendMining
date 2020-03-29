@@ -1,0 +1,3493 @@
+{
+    "search-results": {
+        "opensearch:totalResults": "816",
+        "opensearch:itemsPerPage": "25",
+        "opensearch:Query": {
+            "@role": "request",
+            "@searchTerms": "TITLE-ABS-KEY(\"DevOps\") AND  ALL ( \"software\" )  AND  ( LIMIT-TO ( SUBJAREA ,  \"COMP\" )  OR  LIMIT-TO ( SUBJAREA ,  \"ENGI\" ) )",
+            "@startPage": ""
+        },
+        "cursor": {
+            "@current": "*",
+            "@next": "AoNVqodNCEGJvToyMi1zMi4wLTg1MDc5Nzg2NzUw"
+        },
+        "link": [
+            {
+                "@_fa": "true",
+                "@ref": "self",
+                "@href": "https://api.elsevier.com/content/search/scopus?cursor=*&count=25&query=TITLE-ABS-KEY%28%22DevOps%22%29+AND++ALL+%28+%22software%22+%29++AND++%28+LIMIT-TO+%28+SUBJAREA+%2C++%22COMP%22+%29++OR++LIMIT-TO+%28+SUBJAREA+%2C++%22ENGI%22+%29+%29&view=COMPLETE&apiKey=5cd1321fa87640a65e146086a5cffa2b",
+                "@type": "application/json"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "first",
+                "@href": "https://api.elsevier.com/content/search/scopus?cursor=*&count=25&query=TITLE-ABS-KEY%28%22DevOps%22%29+AND++ALL+%28+%22software%22+%29++AND++%28+LIMIT-TO+%28+SUBJAREA+%2C++%22COMP%22+%29++OR++LIMIT-TO+%28+SUBJAREA+%2C++%22ENGI%22+%29+%29&view=COMPLETE&apiKey=5cd1321fa87640a65e146086a5cffa2b",
+                "@type": "application/json"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "next",
+                "@href": "https://api.elsevier.com/content/search/scopus?cursor=AoNVqodNCEGJvToyMi1zMi4wLTg1MDc5Nzg2NzUw&count=25&query=TITLE-ABS-KEY%28%22DevOps%22%29+AND++ALL+%28+%22software%22+%29++AND++%28+LIMIT-TO+%28+SUBJAREA+%2C++%22COMP%22+%29++OR++LIMIT-TO+%28+SUBJAREA+%2C++%22ENGI%22+%29+%29&view=COMPLETE&apiKey=5cd1321fa87640a65e146086a5cffa2b",
+                "@type": "application/json"
+            }
+        ],
+        "entry": [
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079004147"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079004147?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079004147&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079004147&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "full-text",
+                        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0164121220300042"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079004147",
+                "dc:identifier": "SCOPUS_ID:85079004147",
+                "eid": "2-s2.0-85079004147",
+                "dc:title": "A novel Security-by-Design methodology: Modeling and assessing security by SLAs with a quantitative approach",
+                "dc:creator": "Casola V.",
+                "prism:publicationName": "Journal of Systems and Software",
+                "prism:issn": "01641212",
+                "prism:volume": "163",
+                "prism:pageRange": null,
+                "prism:coverDate": "2020-05-01",
+                "prism:coverDisplayDate": "May 2020",
+                "prism:doi": "10.1016/j.jss.2020.110537",
+                "pii": "S0164121220300042",
+                "dc:description": "© 2020 Elsevier Inc. Recent software development methodologies, as DevOps or Agile, are very popular and widely used, especially for the development of cloud services and applications. They dramatically reduce the time-to-market of developed software but, at the same time, they can be hardly integrated with security design and risk management methodologies. These cannot be easily automated and require big economic investments, due to the necessity of security experts in the development team and to the lack of automatic tools to evaluate risk and to assess security in the design and operation phases. This paper presents a novel Security-by-Design methodology based on Security Service Level Agreements (SLAs), which can be integrated within modern development processes and that is able to support the risk management life-cycle in an almost-completely automated way. In particular, it relies upon a guided risk analysis process and a completely automated security assessment phase, which enable to assess the security properties granted by a cloud application and to report them in a Security SLA. We validated the proposed methodology with respect to a real case study, which showed its effectiveness in improving the awareness of designer and developer teams on security aspects and in reducing the secure design process time.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60026777",
+                        "afid": "60026777",
+                        "affilname": "Università degli Studi della Campania Luigi Vanvitelli",
+                        "affiliation-city": "Naples",
+                        "affiliation-country": "Italy"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60017293",
+                        "afid": "60017293",
+                        "affilname": "Università degli Studi di Napoli Federico II",
+                        "affiliation-city": "Naples",
+                        "affiliation-country": "Italy"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60004300",
+                        "afid": "60004300",
+                        "affilname": "Università degli Studi del Sannio",
+                        "affiliation-city": "Benevento",
+                        "affiliation-country": "Italy"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "4",
+                    "$": "4"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/6506461115",
+                        "authid": "6506461115",
+                        "authname": "Casola V.",
+                        "surname": "Casola",
+                        "given-name": "Valentina",
+                        "initials": "V.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60017293"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57189080499",
+                        "authid": "57189080499",
+                        "authname": "De Benedictis A.",
+                        "surname": "De Benedictis",
+                        "given-name": "Alessandra",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60017293"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/8966231800",
+                        "authid": "8966231800",
+                        "authname": "Rak M.",
+                        "surname": "Rak",
+                        "given-name": "Massimiliano",
+                        "initials": "M.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60026777"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/6701455908",
+                        "authid": "6701455908",
+                        "authname": "Villano U.",
+                        "surname": "Villano",
+                        "given-name": "Umberto",
+                        "initials": "U.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60004300"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "Secure Cloud Application Development | Security Assessment | Security metrics | Security models | Security Service Level Agreement | Security-by-Design methodologies",
+                "article-number": "110537",
+                "source-id": "19309",
+                "fund-acr": "EC",
+                "fund-no": "undefined",
+                "fund-sponsor": "European Commission",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85076510068"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85076510068?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85076510068&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85076510068&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "full-text",
+                        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S1569190X19301649"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85076510068",
+                "dc:identifier": "SCOPUS_ID:85076510068",
+                "eid": "2-s2.0-85076510068",
+                "dc:title": "SMADA-Fog: Semantic model driven approach to deployment and adaptivity in fog computing",
+                "dc:creator": "Petrovic N.",
+                "prism:publicationName": "Simulation Modelling Practice and Theory",
+                "prism:issn": "1569190X",
+                "prism:volume": "101",
+                "prism:pageRange": null,
+                "prism:coverDate": "2020-05-01",
+                "prism:coverDisplayDate": "May 2020",
+                "prism:doi": "10.1016/j.simpat.2019.102033",
+                "pii": "S1569190X19301649",
+                "dc:description": "© 2019 Elsevier B.V. The deployment, monitoring and configuration of applications in Fog Computing are becoming quite challenging, due to heterogeneity of mobile and IoT devices involved, data movement constraints imposed by legal regulations as well as frequent changes in the execution environment that may affect quality of service. As a consequence, the system administration procedures are becoming more complex and time-consuming, especially if done manually. In this paper, a Semantic Model driven Approach to Deployment and Adaptivity of container-based applications in Fog Computing (SMADA-Fog) is proposed. Modeling tools, semantic framework, linear optimization model, simulation environment and infrastructure management code generator leveraging the semantic annotations are implemented and presented. According to results of the two experimentally tested scenarios, the proposed approach improves the application performance, while the time required for deployment as well as service adaptation is reduced for at least an order of magnitude.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60068806",
+                        "afid": "60068806",
+                        "affilname": "University of Niš",
+                        "affiliation-city": "Nis",
+                        "affiliation-country": "Serbia"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "2",
+                    "$": "2"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57206900973",
+                        "authid": "57206900973",
+                        "authname": "Petrovic N.",
+                        "surname": "Petrovic",
+                        "given-name": "Nenad",
+                        "initials": "N.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60068806"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/7006349903",
+                        "authid": "7006349903",
+                        "authname": "Tosic M.",
+                        "surname": "Tosic",
+                        "given-name": "Milorad",
+                        "initials": "M.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60068806"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "DevOps | Fog Computing | Infrastructure as code | Linear optimization | Model-driven engineering | Semantic technology",
+                "article-number": "102033",
+                "source-id": "12189",
+                "fund-acr": "H2020",
+                "fund-no": "645220",
+                "fund-sponsor": "Horizon 2020 Framework Programme",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85080993304"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85080993304?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85080993304&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85080993304&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85080993304",
+                "dc:identifier": "SCOPUS_ID:85080993304",
+                "eid": "2-s2.0-85080993304",
+                "dc:title": "Characterization of devops practices in software development organizations: A systematic mapping",
+                "dc:creator": "Castillo J.D.S.",
+                "prism:publicationName": "RISTI - Revista Iberica de Sistemas e Tecnologias de Informacao",
+                "prism:issn": "16469895",
+                "prism:volume": "2020",
+                "prism:issueIdentifier": "E28",
+                "prism:pageRange": "83-96",
+                "prism:coverDate": "2020-04-01",
+                "prism:coverDisplayDate": "April 2020",
+                "dc:description": "© 2020, Associacao Iberica de Sistemas e Tecnologias de Informacao. All rights reserved. DevOps is a set of software engineering practices that combine efforts from development and operations areas, with the aim of improving delivery time and software quality. The goal of this study is to characterize DevOps practices used by organizations that develop software. For this, we performed a systematic literature mapping covering the period 2015-2019. In total, 42 primary articles were included and analyzed. We identified and classified a total of 20 DevOps practices, 18 criteria to evaluate DevOps practices, 16 benefits and 19 challenges related to DevOps’ adoption. Our results show the need for more empirical studies in organizations, which directly address issues like evaluation criteria to assess the operation of DevOps practices.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60071929",
+                        "afid": "60071929",
+                        "affilname": "Universidad de Costa Rica",
+                        "affiliation-city": "San Jose",
+                        "affiliation-country": "Costa Rica"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "4",
+                    "$": "4"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57215495533",
+                        "authid": "57215495533",
+                        "authname": "Castillo J.D.S.",
+                        "surname": "Castillo",
+                        "given-name": "Jose Daniel Sánchez",
+                        "initials": "J.D.S.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60071929"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/7404026565",
+                        "authid": "7404026565",
+                        "authname": "Martínez A.",
+                        "surname": "Martínez",
+                        "given-name": "Alexandra",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60071929"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/56380571400",
+                        "authid": "56380571400",
+                        "authname": "Quesada-López C.",
+                        "surname": "Quesada-López",
+                        "given-name": "Christian",
+                        "initials": "C.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60071929"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/23094218000",
+                        "authid": "23094218000",
+                        "authname": "Jenkins M.",
+                        "surname": "Jenkins",
+                        "given-name": "Marcelo",
+                        "initials": "M.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60071929"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "Characterization | DevOps | Practices | Software development organizations | Software engineering",
+                "source-id": "21100197714",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85075753103"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85075753103?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85075753103&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85075753103&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85075753103",
+                "dc:identifier": "SCOPUS_ID:85075753103",
+                "eid": "2-s2.0-85075753103",
+                "dc:title": "DevDocOps: Enabling continuous documentation in alignment with DevOps",
+                "dc:creator": "Rong G.",
+                "prism:publicationName": "Software - Practice and Experience",
+                "prism:issn": "00380644",
+                "prism:eIssn": "1097024X",
+                "prism:volume": "50",
+                "prism:issueIdentifier": "3",
+                "prism:pageRange": "210-226",
+                "prism:coverDate": "2020-03-01",
+                "prism:coverDisplayDate": "1 March 2020",
+                "prism:doi": "10.1002/spe.2770",
+                "dc:description": "© 2019 John Wiley  &  Sons, Ltd. The proliferation of DevOps enables significant acceleration and automation of the delivery and deployment of massive software products. Unfortunately, the development of supporting documents that is vital for large-scale software systems in many cases does not keep pace with the rhythm of feature delivery using DevOps in practice, which becomes the bottleneck for many software organizations to deliver full value to the customers as claimed by the DevOps. This paper proposes, implements, and evaluates an integrated approach, DevDocOps, for continuous automated documentation, in particular for DevOps. With DevDocOps, supporting documents are created along with the development process simultaneously by various roles within a DevOps project, which largely guarantees the accuracy and integrity of documents as well as significantly increases their delivery speed. Within an established delivery chain, a set of templates are created to collect and transform the required information from its origin to the target documents for delivery. A real system, iDoc, is implemented to map, collect, and synthesize the information from document templates and automate the documentation process. DevDocOps has been successfully adopted in a top-tier global telecommunication enterprise to support more than 5000 users with different roles related to documentation. The lag time between the releases of the product version and its supporting document has been shortened from 1 to 2 months on average to less than 2 days. DevDocOps extends the scope of DevOps and enhances the value delivery by supporting continuous documentation and bridges the gap between feature delivery and document delivery with automation.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60033100",
+                        "afid": "60033100",
+                        "affilname": "Nanjing University",
+                        "affiliation-city": "Nanjing",
+                        "affiliation-country": "China"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60014755",
+                        "afid": "60014755",
+                        "affilname": "Zte",
+                        "affiliation-city": "Shenzhen",
+                        "affiliation-country": "China"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "6",
+                    "$": "6"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/36987162200",
+                        "authid": "36987162200",
+                        "authname": "Rong G.",
+                        "surname": "Rong",
+                        "given-name": "Guoping",
+                        "initials": "G.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60033100"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57214627118",
+                        "authid": "57214627118",
+                        "authname": "Jin Z.",
+                        "surname": "Jin",
+                        "given-name": "Zefeng",
+                        "initials": "Z.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60014755"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57212028085",
+                        "authid": "57212028085",
+                        "authname": "Zhang H.",
+                        "surname": "Zhang",
+                        "given-name": "He",
+                        "initials": "H.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60033100"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57210982364",
+                        "authid": "57210982364",
+                        "authname": "Zhang Y.",
+                        "surname": "Zhang",
+                        "given-name": "Youwen",
+                        "initials": "Y.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60014755"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "5",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57210982187",
+                        "authid": "57210982187",
+                        "authname": "Ye W.",
+                        "surname": "Ye",
+                        "given-name": "Wenhua",
+                        "initials": "W.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60014755"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "6",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/16508165800",
+                        "authid": "16508165800",
+                        "authname": "Shao D.",
+                        "surname": "Shao",
+                        "given-name": "Dong",
+                        "initials": "D.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60033100"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "automated documentation | continuous delivery | continuous documentation | DevDocOps | DevOps",
+                "source-id": "20007",
+                "fund-acr": "NSFC",
+                "fund-no": "61572251",
+                "fund-sponsor": "National Natural Science Foundation of China",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079086247"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079086247?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079086247&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079086247&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079086247",
+                "dc:identifier": "SCOPUS_ID:85079086247",
+                "eid": "2-s2.0-85079086247",
+                "dc:title": "From DevOps to DevDataOps: Data Management in DevOps Processes",
+                "dc:creator": "Capizzi A.",
+                "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                "prism:issn": "03029743",
+                "prism:eIssn": "16113349",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030393052"
+                    }
+                ],
+                "prism:volume": "12055 LNCS",
+                "prism:pageRange": "52-62",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1007/978-3-030-39306-9_4",
+                "dc:description": "© 2020, Springer Nature Switzerland AG. DevOps is a quite effective approach for managing software development and operation, as confirmed by plenty of success stories in real applications and case studies. DevOps is now becoming the main-stream solution adopted by the software industry in development, able to reduce the time to market and costs while improving quality and ensuring evolvability and adaptability of the resulting software architecture. Among the aspects to take into account in a DevOps process, data is assuming strategic importance, since it allows to gain insights from the operation directly into the development, the main objective of a DevOps approach. Data can be therefore considered as the fuel of the DevOps process, requiring proper solutions for its management. Based on the amount of data generated, its variety, velocity, variability, value and other relevant features, DevOps data management can be mainly framed into the BigData category. This allows exploiting BigData solutions for the management of DevOps data generated throughout the process, including artefacts, code, documentation, logs and so on. This paper aims at investigating data management in DevOps processes, identifying related issues, challenges and potential solutions taken from the BigData world as well as from new trends adopting and adapting DevOps approaches in data management, i.e. DataOps.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60105869",
+                        "afid": "60105869",
+                        "affilname": "Innopolis University",
+                        "affiliation-city": "Kazan",
+                        "affiliation-country": "Russian Federation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60011576",
+                        "afid": "60011576",
+                        "affilname": "Università degli Studi di Messina",
+                        "affiliation-city": "Messina",
+                        "affiliation-country": "Italy"
+                    }
+                ],
+                "prism:aggregationType": "Book Series",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "3",
+                    "$": "3"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57214781148",
+                        "authid": "57214781148",
+                        "authname": "Capizzi A.",
+                        "surname": "Capizzi",
+                        "given-name": "Antonio",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60011576"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/17433851100",
+                        "authid": "17433851100",
+                        "authname": "Distefano S.",
+                        "surname": "Distefano",
+                        "given-name": "Salvatore",
+                        "initials": "S.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60011576"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/8557895400",
+                        "authid": "8557895400",
+                        "authname": "Mazzara M.",
+                        "surname": "Mazzara",
+                        "given-name": "Manuel",
+                        "initials": "M.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60105869"
+                            }
+                        ]
+                    }
+                ],
+                "source-id": "25674",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079152551"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079152551?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079152551&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079152551&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079152551",
+                "dc:identifier": "SCOPUS_ID:85079152551",
+                "eid": "2-s2.0-85079152551",
+                "dc:title": "2nd International Workshop on Software Engineering Aspects of Continuous Development and New Paradigms of Software Production and Deployment, DEVOPS 2019",
+                "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                "prism:issn": "03029743",
+                "prism:eIssn": "16113349",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030393052"
+                    }
+                ],
+                "prism:volume": "12055 LNCS",
+                "prism:pageRange": null,
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "dc:description": "The proceedings contain 15 papers. The special focus in this conference is on Software Engineering Aspects of Continuous Development and New Paradigms of Software Production and Deployment. The topics include: Towards Designing Smart Learning Environments with IoT; opunit: Sanity Checks for Computing Environments; towards Bridging the Value Gap in DevOps; archiMate as a Specification Language for Big Data Applications - DataBio Example; fallacies and Pitfalls on the Road to DevOps: A Longitudinal Industrial Study; a Model-Driven Approach Towards Automatic Migration to Microservices; anomaly Detection in DevOps Toolchain; from DevOps to DevDataOps: Data Management in DevOps Processes; exploiting Agile Practices to Teach Computational Thinking; towards a Model-Based DevOps for Cyber-Physical Systems; a DevOps Perspective for QoS-Aware Adaptive Applications; learning Agility from Dancers – Experience and Lesson Learnt; Development and Operation of Trustworthy Smart IoT Systems: The ENACT Framework.",
+                "citedby-count": "0",
+                "prism:aggregationType": "Book Series",
+                "subtype": "cr",
+                "subtypeDescription": "Conference Review",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "0"
+                },
+                "source-id": "25674",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85082004583"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85082004583?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85082004583&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85082004583&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85082004583",
+                "dc:identifier": "SCOPUS_ID:85082004583",
+                "eid": "2-s2.0-85082004583",
+                "dc:title": "Multicriteria based decision making of DevOps data quality assessment challenges using fuzzy TOPSIS",
+                "dc:creator": "Rafi S.",
+                "prism:publicationName": "IEEE Access",
+                "prism:eIssn": "21693536",
+                "prism:volume": "8",
+                "prism:pageRange": "46958-46980",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1109/ACCESS.2020.2976803",
+                "dc:description": "© 2013 IEEE. In current era, DevOps gain much interaction in software industry as it provides the flexible development environment. To meet the continuous development and operations, DevOps mainly focus, to integrate the data from heterogeneous source. While DevOps adoption, the quality assessment of data integrated from heterogeneous environment, is important and challenging at the same time. This study aims to identify the critical factors that could negatively impact the data quality assessment process in DevOps. We have used the systematic literature review (SLR) approach and identify a total of 13 critical challenging factors. The finding of SLR are further validated with industry experts via questionnaire survey. Finally, we have applied the Fuzzy TOPSIS approach to prioritize the investigated challenging factors with respect to their significance of DevOps data quality assessment process. The results show that analyzing data in real time, visualization of data and missing information and other invalid data are the highest ranked challenging factors which need to be addressed on priority basis, to successfully measure the quality of heterogeneous data in DevOps. We believe that the finding of this study will assist the practitioner to consider the most significant factors for measuring the quality of heterogeneous data in DevOps.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60021666",
+                        "afid": "60021666",
+                        "affilname": "Nanjing University of Aeronautics and Astronautics",
+                        "affiliation-city": "Nanjing",
+                        "affiliation-country": "China"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60020620",
+                        "afid": "60020620",
+                        "affilname": "Chongqing University of Posts and Telecommunications",
+                        "affiliation-city": "Chongqing",
+                        "affiliation-country": "China"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60013183",
+                        "afid": "60013183",
+                        "affilname": "King Saud University",
+                        "affiliation-city": "Riyadh",
+                        "affiliation-country": "Saudi Arabia"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "5",
+                    "$": "5"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57215827304",
+                        "authid": "57215827304",
+                        "authname": "Rafi S.",
+                        "surname": "Rafi",
+                        "given-name": "Saima",
+                        "initials": "S.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60020620"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57198555707",
+                        "authid": "57198555707",
+                        "authname": "Yu W.",
+                        "surname": "Yu",
+                        "given-name": "Wu",
+                        "initials": "W.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60020620"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57200183503",
+                        "authid": "57200183503",
+                        "authname": "Akbar M.A.",
+                        "surname": "Akbar",
+                        "given-name": "Muhammad Azeem",
+                        "initials": "M.A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60021666"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57202079542",
+                        "authid": "57202079542",
+                        "authname": "Alsanad A.",
+                        "surname": "Alsanad",
+                        "given-name": "Ahmed",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60013183"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "5",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/55332296700",
+                        "authid": "55332296700",
+                        "authname": "Gumaei A.",
+                        "surname": "Gumaei",
+                        "given-name": "Abdu",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60013183"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "DevOps data quality assessment | empirical investigation | fuzzy TOPSIS",
+                "article-number": "9015992",
+                "source-id": "21100374601",
+                "fund-no": "17XFX013",
+                "fund-sponsor": "Deanship of Scientific Research, King Saud University",
+                "openaccess": "1",
+                "openaccessFlag": true
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079095350"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079095350?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079095350&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079095350&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079095350",
+                "dc:identifier": "SCOPUS_ID:85079095350",
+                "eid": "2-s2.0-85079095350",
+                "dc:title": "Fallacies and Pitfalls on the Road to DevOps: A Longitudinal Industrial Study",
+                "dc:creator": "Caprarelli A.",
+                "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                "prism:issn": "03029743",
+                "prism:eIssn": "16113349",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030393052"
+                    }
+                ],
+                "prism:volume": "12055 LNCS",
+                "prism:pageRange": "200-210",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1007/978-3-030-39306-9_15",
+                "dc:description": "© 2020, Springer Nature Switzerland AG. DevOps has come into play to help companies in improving their product delivery. This paper offers an overview of the fallacies and pitfalls faced in this context by engineers and operators in an industrial case-study. We reveal a total of 8 key fallacies and pitfalls that span the organisational structure, technical structures, as well as software process and delivery mechanisms in the target case-study. Practitioners can use these challenges as references for diagnosing their own scenario while planning their own potential DevOps process migration strategy.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60023256",
+                        "afid": "60023256",
+                        "affilname": "Politecnico di Milano",
+                        "affiliation-city": "Milan",
+                        "affiliation-country": "Italy"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/121967657",
+                        "afid": "121967657",
+                        "affilname": "JADS",
+                        "affiliation-city": "'s-Hertogenbosch",
+                        "affiliation-country": "Netherlands"
+                    }
+                ],
+                "prism:aggregationType": "Book Series",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "3",
+                    "$": "3"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57202612831",
+                        "authid": "57202612831",
+                        "authname": "Caprarelli A.",
+                        "surname": "Caprarelli",
+                        "given-name": "Alessandro",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60023256"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/6602196755",
+                        "authid": "6602196755",
+                        "authname": "Di Nitto E.",
+                        "surname": "Di Nitto",
+                        "given-name": "Elisabetta",
+                        "initials": "E.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60023256"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/35488974800",
+                        "authid": "35488974800",
+                        "authname": "Tamburri D.",
+                        "surname": "Tamburri",
+                        "given-name": "Damian Andrew",
+                        "initials": "D.A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "121967657"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "DevOps quality | Organizational and technical aspects | Process migration",
+                "source-id": "25674",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079100451"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079100451?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079100451&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079100451&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079100451",
+                "dc:identifier": "SCOPUS_ID:85079100451",
+                "eid": "2-s2.0-85079100451",
+                "dc:title": "Towards Bridging the Value Gap in DevOps",
+                "dc:creator": "Murphy G.",
+                "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                "prism:issn": "03029743",
+                "prism:eIssn": "16113349",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030393052"
+                    }
+                ],
+                "prism:volume": "12055 LNCS",
+                "prism:pageRange": "181-190",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1007/978-3-030-39306-9_13",
+                "dc:description": "© 2020, Springer Nature Switzerland AG. The DevOps movement, which combines software development with information technology operations, enables the more frequent delivery of changes to a software system. Adopting DevOps practices is seen as enabling the ability to deliver more. But is the more that is getting done actually of value to the end user or to the producing organization? In this paper, we describe how the ideas of value streams are being applied to software development and how more systematic handling of features is key to enabling an increased focus on the delivery of value.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60010365",
+                        "afid": "60010365",
+                        "affilname": "The University of British Columbia",
+                        "affiliation-city": "Vancouver",
+                        "affiliation-country": "Canada"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/107945172",
+                        "afid": "107945172",
+                        "affilname": "Tasktop Technologies Inc.",
+                        "affiliation-city": "Vancouver",
+                        "affiliation-country": "Canada"
+                    }
+                ],
+                "prism:aggregationType": "Book Series",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "2",
+                    "$": "2"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/7402791460",
+                        "authid": "7402791460",
+                        "authname": "Murphy G.",
+                        "surname": "Murphy",
+                        "given-name": "Gail C.",
+                        "initials": "G.C.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60010365"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/7005064650",
+                        "authid": "7005064650",
+                        "authname": "Kersten M.",
+                        "surname": "Kersten",
+                        "given-name": "Mik",
+                        "initials": "M.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "107945172"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "Software development productivity | Software requirements | Value stream maps",
+                "source-id": "25674",
+                "fund-acr": "NSERC",
+                "fund-no": "RGPIN-2016-03758",
+                "fund-sponsor": "Natural Sciences and Engineering Research Council of Canada",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85075692704"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85075692704?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85075692704&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85075692704&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85075692704",
+                "dc:identifier": "SCOPUS_ID:85075692704",
+                "eid": "2-s2.0-85075692704",
+                "dc:title": "Software Product Quality in DevOps Contexts: A Systematic Literature Review",
+                "dc:creator": "Céspedes D.",
+                "prism:publicationName": "Advances in Intelligent Systems and Computing",
+                "prism:issn": "21945357",
+                "prism:eIssn": "21945365",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030335465"
+                    }
+                ],
+                "prism:volume": "1071",
+                "prism:pageRange": "51-64",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1007/978-3-030-33547-2_5",
+                "dc:description": "© 2020, Springer Nature Switzerland AG. DevOps is a change in the organizational culture that aims to reduce the gap between development and operation teams, accelerating the software release process. However, little is known about the impact of this approach on software product quality. This study aims to analyze the influence of the application of DevOps on software product quality; therefore, a systematic literature review was conducted. Thirty-one articles related to DevOps and its influence on product quality were identified. The studies indicate a strong influence of some product quality characteristics, specifically: Reliability and Maintainability. Additionally, practices associated with DevOps, such as the minimum viable product, deployment automation, test automation, cloud computing and team cooperation, show a relationship with the improvement in software product quality, however, its adoption also brings new challenges to preserve security.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60071236",
+                        "afid": "60071236",
+                        "affilname": "Pontificia Universidad Catolica del Peru",
+                        "affiliation-city": "Lima",
+                        "affiliation-country": "Peru"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60014851",
+                        "afid": "60014851",
+                        "affilname": "Universidad de Belgrano",
+                        "affiliation-city": "Buenos Aires",
+                        "affiliation-country": "Argentina"
+                    }
+                ],
+                "prism:aggregationType": "Book Series",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "4",
+                    "$": "4"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57212002447",
+                        "authid": "57212002447",
+                        "authname": "Céspedes D.",
+                        "surname": "Céspedes",
+                        "given-name": "Daniel",
+                        "initials": "D.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60071236"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57197766480",
+                        "authid": "57197766480",
+                        "authname": "Angeleri P.",
+                        "surname": "Angeleri",
+                        "given-name": "Paula",
+                        "initials": "P.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60014851"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/36629110400",
+                        "authid": "36629110400",
+                        "authname": "Melendez K.",
+                        "surname": "Melendez",
+                        "given-name": "Karin",
+                        "initials": "K.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60071236"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/36628136000",
+                        "authid": "36628136000",
+                        "authname": "Dávila A.",
+                        "surname": "Dávila",
+                        "given-name": "Abraham",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60071236"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "DevOps | ISO/IEC 25000 | Product quality | Systematic literature review",
+                "source-id": "5100152904",
+                "fund-acr": "PUCP",
+                "fund-no": "undefined",
+                "fund-sponsor": "Pontificia Universidad CatÃ³lica del PerÃº",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079101956"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079101956?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079101956&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079101956&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079101956",
+                "dc:identifier": "SCOPUS_ID:85079101956",
+                "eid": "2-s2.0-85079101956",
+                "dc:title": "Towards Modeling Framework for DevOps: Requirements Derived from Industry Use Case",
+                "dc:creator": "Bordeleau F.",
+                "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                "prism:issn": "03029743",
+                "prism:eIssn": "16113349",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030393052"
+                    }
+                ],
+                "prism:volume": "12055 LNCS",
+                "prism:pageRange": "139-151",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1007/978-3-030-39306-9_10",
+                "dc:description": "© 2020, Springer Nature Switzerland AG. To succeed with the development, deployment, and operation of the new generation of complex systems, organizations need the agility to adapt to constantly evolving environments. In this context, DevOps has emerged as an evolution of the agile approaches. It focuses on optimizing the flow of activities involved in the creation of end-user value, from idea to deployed functionality and operating systems. However, in spite of its popularity, DevOps still lacks proper engineering frameworks to support continuous improvement. One of our key objectives is to contribute to the development of a DevOps engineering framework composed of process, methods, and tools. A core part of this framework relates to the modeling of the different aspects of the DevOps system. To better understand the requirements of modeling in a DevOps context, we focus on a Product Build use case provided by an industry partner.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60026786",
+                        "afid": "60026786",
+                        "affilname": "École de Technologie Supérieure",
+                        "affiliation-city": "Montreal",
+                        "affiliation-country": "Canada"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60016005",
+                        "afid": "60016005",
+                        "affilname": "Queen's University, Kingston",
+                        "affiliation-city": "Kingston",
+                        "affiliation-country": "Canada"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60002581",
+                        "afid": "60002581",
+                        "affilname": "Universitat Oberta de Catalunya",
+                        "affiliation-city": "Barcelona",
+                        "affiliation-country": "Spain"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/123861448",
+                        "afid": "123861448",
+                        "affilname": "Kaloom",
+                        "affiliation-city": "Montreal",
+                        "affiliation-country": "Canada"
+                    }
+                ],
+                "prism:aggregationType": "Book Series",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "5",
+                    "$": "5"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/13106215800",
+                        "authid": "13106215800",
+                        "authname": "Bordeleau F.",
+                        "surname": "Bordeleau",
+                        "given-name": "Francis",
+                        "initials": "F.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60026786"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/8963493600",
+                        "authid": "8963493600",
+                        "authname": "Cabot J.",
+                        "surname": "Cabot",
+                        "given-name": "Jordi",
+                        "initials": "J.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60002581"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/6603459509",
+                        "authid": "6603459509",
+                        "authname": "Dingel J.",
+                        "surname": "Dingel",
+                        "given-name": "Juergen",
+                        "initials": "J.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60016005"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/23974977200",
+                        "authid": "23974977200",
+                        "authname": "Rabil B.",
+                        "surname": "Rabil",
+                        "given-name": "Bassem S.",
+                        "initials": "B.S.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "123861448"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "5",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57214781717",
+                        "authid": "57214781717",
+                        "authname": "Renaud P.",
+                        "surname": "Renaud",
+                        "given-name": "Patrick",
+                        "initials": "P.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "123861448"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "DevOps | Modeling | Process",
+                "source-id": "25674",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85078929844"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85078929844?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85078929844&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85078929844&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85078929844",
+                "dc:identifier": "SCOPUS_ID:85078929844",
+                "eid": "2-s2.0-85078929844",
+                "dc:title": "Project management in era of agile and devops methodlogies",
+                "dc:creator": "Raj P.",
+                "prism:publicationName": "International Journal of Scientific and Technology Research",
+                "prism:eIssn": "22778616",
+                "prism:volume": "9",
+                "prism:issueIdentifier": "1",
+                "prism:pageRange": "1024-1033",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "January 2020",
+                "dc:description": "© IJSTR 2020. This paper deals with the impact of Agile and DevOps on project management practices and team structure in Software development projects . Project Management practices determine the success of the project. Agile and DevOps are essentially changing the rules on h ow the software projects are being executed and delivered. Specifically, the objective of agile processes is to fulfill the customer requirements at timely manner and with lower defect rate. The findings of this study indicate that, the Agile and DevOps methodologies have impact on scope management, quality management and estimation which impacts the project management practices. It is also evident from the review of literature that, Agile and D evOps methodologies have impact on shared responsibility, automation and feedback which organizes team structure. The present paper proposes the conceptual framework and prepositions and in future that could be tested empirically by the researchers to study the impact on holistic basis. In addition to these, this paper also provides recommendations to the sectors that wish to adapt Agile and DevOps methodologies as a part of the strategy to enhance project manag ement practices and team structure.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60115307",
+                        "afid": "60115307",
+                        "affilname": "GD Goenka University",
+                        "affiliation-city": "Sohna",
+                        "affiliation-country": "India"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/123839847",
+                        "afid": "123839847",
+                        "affilname": "GDA gileGoenka and University",
+                        "affiliation-city": null,
+                        "affiliation-country": "India"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "2",
+                    "$": "2"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57214686225",
+                        "authid": "57214686225",
+                        "authname": "Raj P.",
+                        "surname": "Raj",
+                        "given-name": "Prixit",
+                        "initials": "P.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60115307"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57214688301",
+                        "authid": "57214688301",
+                        "authname": "Sinha P.",
+                        "surname": "Sinha",
+                        "given-name": "Parul",
+                        "initials": "P.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "123839847"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "Agile | DevOps | Project management practices | Team Structure",
+                "source-id": "21100894501",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85075647533"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85075647533?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85075647533&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85075647533&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85075647533",
+                "dc:identifier": "SCOPUS_ID:85075647533",
+                "eid": "2-s2.0-85075647533",
+                "dc:title": "Reinforcing DevOps Generic Process with a Guidance Based on the Basic Profile of ISO/IEC 29110",
+                "dc:creator": "Muñoz M.",
+                "prism:publicationName": "Advances in Intelligent Systems and Computing",
+                "prism:issn": "21945357",
+                "prism:eIssn": "21945365",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030335465"
+                    }
+                ],
+                "prism:volume": "1071",
+                "prism:pageRange": "65-79",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1007/978-3-030-33547-2_6",
+                "dc:description": "© 2020, Springer Nature Switzerland AG. Nowadays customers are expecting faster feedback and changes related to issues or feature requests but providing a solution to this need, therefore organizations such as IBM, Facebook and Firefox are implementing DevOps practices. However, even when information about DevOps, such as principles, practices, suggestions or even a maturity or capability model, could be find in many sources containing, there is not a guidance on how to adopt and implement it. This fact becomes very important to achieve a reinforcement or evolution of the software development process and its implementation, according to the specific needs of an organization. As result of this lack of guidance, many authors have different understanding about what means the implementation of DevOps practices, causing confusion and an overwhelming situation among team within an organization regarding to the technology, processes or adoption of such practices. To provide a solution of the actual situation, this paper presents a guideline that allows the establishment of a generic DevOps process proposed, which aims to achieve the implementation of a DevOps approach reinforced with the proven practices of the Basic profile of the ISO/IEC 29110. Besides, it enables the organization to achieve a definition or improvement of process, roles and work products involved in a DevOps environment in an easy way.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/120884484",
+                        "afid": "120884484",
+                        "affilname": "Centro de Investigación en Matemáticas",
+                        "affiliation-city": "Zacatecas",
+                        "affiliation-country": "Mexico"
+                    }
+                ],
+                "prism:aggregationType": "Book Series",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "2",
+                    "$": "2"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/53866986800",
+                        "authid": "53866986800",
+                        "authname": "Muñoz M.",
+                        "surname": "Muñoz",
+                        "given-name": "Mirna",
+                        "initials": "M.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "120884484"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57208468793",
+                        "authid": "57208468793",
+                        "authname": "Negrete M.",
+                        "surname": "Negrete",
+                        "given-name": "Mario",
+                        "initials": "M.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "120884484"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "DevOps | Guidance | Implementation process | ISO/IEC 29110 | Software",
+                "source-id": "5100152904",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079102926"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079102926?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079102926&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079102926&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079102926",
+                "dc:identifier": "SCOPUS_ID:85079102926",
+                "eid": "2-s2.0-85079102926",
+                "dc:title": "Development and Operation of Trustworthy Smart IoT Systems: The ENACT Framework",
+                "dc:creator": "Ferry N.",
+                "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                "prism:issn": "03029743",
+                "prism:eIssn": "16113349",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030393052"
+                    }
+                ],
+                "prism:volume": "12055 LNCS",
+                "prism:pageRange": "121-138",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1007/978-3-030-39306-9_9",
+                "dc:description": "© 2020, Springer Nature Switzerland AG. To unleash the full potential of IoT, it is critical to facilitate threation and operation of trustworthy Smart IoT Systems (SIS). Software development and delivery of SIS would greatly benefit from DevOps as devices and IoT services requirements for reliability, quality, security and safety are paramount. However, DevOps practices are far from widely adopted in the IoT, in particular, due to a lack of key enabling tools. In last year paper at DevOps’18, we presented the ENACT research roadmap that identified the critical challenges to enable DevOps in the realm of trustworthy SIS. In this paper, we present the ENACT DevOps Framework as our current realization of these methods and tools.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60110693",
+                        "afid": "60110693",
+                        "affilname": "Université Côte d'Azur",
+                        "affiliation-city": "Nice",
+                        "affiliation-country": "France"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60110404",
+                        "afid": "60110404",
+                        "affilname": "TECNALIA",
+                        "affiliation-city": "Donostia-San Sebastian",
+                        "affiliation-country": "Spain"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60108239",
+                        "afid": "60108239",
+                        "affilname": "SINTEF Digital",
+                        "affiliation-city": "Trondheim",
+                        "affiliation-country": "Norway"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60014264",
+                        "afid": "60014264",
+                        "affilname": "Universität Duisburg-Essen",
+                        "affiliation-city": "Essen",
+                        "affiliation-country": "Germany"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/122535880",
+                        "afid": "122535880",
+                        "affilname": "TelluIoT Oslo",
+                        "affiliation-city": "Oslo",
+                        "affiliation-country": "Norway"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/122120635",
+                        "afid": "122120635",
+                        "affilname": "Beawre Digital SL",
+                        "affiliation-city": "Barcelona",
+                        "affiliation-country": "Spain"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/122120606",
+                        "afid": "122120606",
+                        "affilname": "EVIDIAN",
+                        "affiliation-city": null,
+                        "affiliation-country": "France"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/113123771",
+                        "afid": "113123771",
+                        "affilname": "Montimage",
+                        "affiliation-city": "Paris",
+                        "affiliation-country": "France"
+                    }
+                ],
+                "prism:aggregationType": "Book Series",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "18",
+                    "$": "18"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/35291975700",
+                        "authid": "35291975700",
+                        "authname": "Ferry N.",
+                        "surname": "Ferry",
+                        "given-name": "Nicolas",
+                        "initials": "N.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60108239"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/56829502400",
+                        "authid": "56829502400",
+                        "authname": "Dominiak J.",
+                        "surname": "Dominiak",
+                        "given-name": "Jacek",
+                        "initials": "J.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "122120635"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57214779543",
+                        "authid": "57214779543",
+                        "authname": "Gallon A.",
+                        "surname": "Gallon",
+                        "given-name": "Anne",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "122120606"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57214778806",
+                        "authid": "57214778806",
+                        "authname": "González E.",
+                        "surname": "González",
+                        "given-name": "Elena",
+                        "initials": "E.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "122120635"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "5",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/56991048200",
+                        "authid": "56991048200",
+                        "authname": "Iturbe E.",
+                        "surname": "Iturbe",
+                        "given-name": "Eider",
+                        "initials": "E.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60110404"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "6",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/13605275200",
+                        "authid": "13605275200",
+                        "authname": "Lavirotte S.",
+                        "surname": "Lavirotte",
+                        "given-name": "Stéphane",
+                        "initials": "S.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60110693"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "7",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57214777475",
+                        "authid": "57214777475",
+                        "authname": "Martinez S.",
+                        "surname": "Martinez",
+                        "given-name": "Saturnino",
+                        "initials": "S.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60110404"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "8",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/15119826600",
+                        "authid": "15119826600",
+                        "authname": "Metzger A.",
+                        "surname": "Metzger",
+                        "given-name": "Andreas",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60014264"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "9",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/8905990700",
+                        "authid": "8905990700",
+                        "authname": "Muntés-Mulero V.",
+                        "surname": "Muntés-Mulero",
+                        "given-name": "Victor",
+                        "initials": "V.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "122120635"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "10",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/55646510700",
+                        "authid": "55646510700",
+                        "authname": "Nguyen P.",
+                        "surname": "Nguyen",
+                        "given-name": "Phu H.",
+                        "initials": "P.H.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60108239"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "11",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57193737993",
+                        "authid": "57193737993",
+                        "authname": "Palm A.",
+                        "surname": "Palm",
+                        "given-name": "Alexander",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60014264"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "12",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57197729847",
+                        "authid": "57197729847",
+                        "authname": "Rego A.",
+                        "surname": "Rego",
+                        "given-name": "Angel",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60110404"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "13",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/14050840000",
+                        "authid": "14050840000",
+                        "authname": "Rios E.",
+                        "surname": "Rios",
+                        "given-name": "Erkuden",
+                        "initials": "E.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60110404"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "14",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57214781735",
+                        "authid": "57214781735",
+                        "authname": "Riviera D.",
+                        "surname": "Riviera",
+                        "given-name": "Diego",
+                        "initials": "D.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "113123771"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "15",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/14827375100",
+                        "authid": "14827375100",
+                        "authname": "Solberg A.",
+                        "surname": "Solberg",
+                        "given-name": "Arnor",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "122535880"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "16",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57195274282",
+                        "authid": "57195274282",
+                        "authname": "Song H.",
+                        "surname": "Song",
+                        "given-name": "Hui",
+                        "initials": "H.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60108239"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "17",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/6602916792",
+                        "authid": "6602916792",
+                        "authname": "Tigli J.",
+                        "surname": "Tigli",
+                        "given-name": "Jean Yves",
+                        "initials": "J.Y.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60110693"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "18",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57205679964",
+                        "authid": "57205679964",
+                        "authname": "Winter T.",
+                        "surname": "Winter",
+                        "given-name": "Thierry",
+                        "initials": "T.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "122120606"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "DevOps | Internet-of-Things | Trustworthiness",
+                "source-id": "25674",
+                "fund-no": "780351",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079097542"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079097542?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079097542&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079097542&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079097542",
+                "dc:identifier": "SCOPUS_ID:85079097542",
+                "eid": "2-s2.0-85079097542",
+                "dc:title": "A DevOps Perspective for QoS-Aware Adaptive Applications",
+                "dc:creator": "De Sanctis M.",
+                "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                "prism:issn": "03029743",
+                "prism:eIssn": "16113349",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030393052"
+                    }
+                ],
+                "prism:volume": "12055 LNCS",
+                "prism:pageRange": "95-111",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1007/978-3-030-39306-9_7",
+                "dc:description": "© 2020, Springer Nature Switzerland AG. This paper presents a vision on how to apply the DevOps paradigm in the context of QoS-aware adaptive applications. The goal is to raise awareness on the lack of quantitative approaches that support software designers in understanding the impact of design alternatives at the development and operational stages. To this end, in this paper we: (i) verify the compliance of a design for adaptation approach with the DevOps life-cycle; (ii) perform the runtime monitoring of dynamic IoT systems, through Quality-of-Service (QoS) evaluation of system parameters, to guide a QoS-based adaptation with the goal of fulfilling QoS-based requirements over time.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60136210",
+                        "afid": "60136210",
+                        "affilname": "Gran Sasso Science Institute",
+                        "affiliation-city": "L'Aquila",
+                        "affiliation-country": "Italy"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60083112",
+                        "afid": "60083112",
+                        "affilname": "Fondazione Bruno Kessler",
+                        "affiliation-city": "Trento",
+                        "affiliation-country": "Italy"
+                    }
+                ],
+                "prism:aggregationType": "Book Series",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "3",
+                    "$": "3"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/56358489900",
+                        "authid": "56358489900",
+                        "authname": "De Sanctis M.",
+                        "surname": "De Sanctis",
+                        "given-name": "Martina",
+                        "initials": "M.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60136210"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/13105059800",
+                        "authid": "13105059800",
+                        "authname": "Bucchiarone A.",
+                        "surname": "Bucchiarone",
+                        "given-name": "Antonio",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60083112"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/24781277400",
+                        "authid": "24781277400",
+                        "authname": "Trubiani C.",
+                        "surname": "Trubiani",
+                        "given-name": "Catia",
+                        "initials": "C.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60136210"
+                            }
+                        ]
+                    }
+                ],
+                "source-id": "25674",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079105428"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079105428?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079105428&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079105428&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079105428",
+                "dc:identifier": "SCOPUS_ID:85079105428",
+                "eid": "2-s2.0-85079105428",
+                "dc:title": "Teaching DevOps in Academia and Industry: Reflections and Vision",
+                "dc:creator": "Bobrov E.",
+                "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                "prism:issn": "03029743",
+                "prism:eIssn": "16113349",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030393052"
+                    }
+                ],
+                "prism:volume": "12055 LNCS",
+                "prism:pageRange": "1-14",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1007/978-3-030-39306-9_1",
+                "dc:description": "© 2020, Springer Nature Switzerland AG. The new century brought us a kind of renaissance in software development methods. The advent of the Agile manifesto has led to greater appreciation of methodologies aimed at producing valuable software through continuous incremental cycles. More recently, a new set of practices enclosed under the term DevOps has appeared to attain manifesto’s objectives in more efficient manner. The software development community has already noticed the benefits brought by DevOps. Thus, the necessity of education in the field becomes more and more important, both from the technical and organisational point of view. This paper describes parallel experiences of teaching both undergraduate and graduate students at the university, and junior professional developers in industry, compares the two approaches and sums up the lessons learnt. A vision driven by the DevOps practices aimed at implementing a shift in the Software Engineering Higher Education curricula to takeover its current limitations is also reported at the end of the paper.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60105869",
+                        "afid": "60105869",
+                        "affilname": "Innopolis University",
+                        "affiliation-city": "Kazan",
+                        "affiliation-country": "Russian Federation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60083112",
+                        "afid": "60083112",
+                        "affilname": "Fondazione Bruno Kessler",
+                        "affiliation-city": "Trento",
+                        "affiliation-country": "Italy"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60072562",
+                        "afid": "60072562",
+                        "affilname": "University of Luxembourg",
+                        "affiliation-city": "Esch-sur-Alzette",
+                        "affiliation-country": "Luxembourg"
+                    }
+                ],
+                "prism:aggregationType": "Book Series",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "6",
+                    "$": "6"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57214781486",
+                        "authid": "57214781486",
+                        "authname": "Bobrov E.",
+                        "surname": "Bobrov",
+                        "given-name": "Evgeny",
+                        "initials": "E.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60105869"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/13105059800",
+                        "authid": "13105059800",
+                        "authname": "Bucchiarone A.",
+                        "surname": "Bucchiarone",
+                        "given-name": "Antonio",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60083112"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/22733547400",
+                        "authid": "22733547400",
+                        "authname": "Capozucca A.",
+                        "surname": "Capozucca",
+                        "given-name": "Alfredo",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60072562"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/8960262200",
+                        "authid": "8960262200",
+                        "authname": "Guelfi N.",
+                        "surname": "Guelfi",
+                        "given-name": "Nicolas",
+                        "initials": "N.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60072562"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "5",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/8557895400",
+                        "authid": "8557895400",
+                        "authname": "Mazzara M.",
+                        "surname": "Mazzara",
+                        "given-name": "Manuel",
+                        "initials": "M.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60105869"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "6",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57205682636",
+                        "authid": "57205682636",
+                        "authname": "Masyagin S.",
+                        "surname": "Masyagin",
+                        "given-name": "Sergey",
+                        "initials": "S.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60105869"
+                            }
+                        ]
+                    }
+                ],
+                "source-id": "25674",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85078891824"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85078891824?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85078891824&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85078891824&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85078891824",
+                "dc:identifier": "SCOPUS_ID:85078891824",
+                "eid": "2-s2.0-85078891824",
+                "dc:title": "A hybrid DevOps process supporting software reuse: A pilot project",
+                "dc:creator": "Ali N.",
+                "prism:publicationName": "Journal of Software: Evolution and Process",
+                "prism:eIssn": "20477481",
+                "prism:pageRange": null,
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1002/smr.2248",
+                "dc:description": "© 2020 John Wiley  &  Sons, Ltd. Large software development organizations manage reusable software components through a reusable software repository in order to reduce development time and cost and to improve software quality and productivity. This paper presents a hybrid DevOps process with a systematic reuse-based software development and management process to reduce the effort and cost required for the rework and to increase productivity. The proposed approach promotes the systematic reuse of software components based on both information retrieval and ontology-based retrieval techniques. The reusable assets are presented in different styles to ease and support the reuse process with fine-grained reusable artifacts. To evaluate our proposed process, a pilot project, aiming to monitor the health of a patient, was developed and monitored the reuse activities throughout the whole experiment. The results revealed that our proposed process got an average gain of 35.2% in terms of developed function points by reusing 30.63% of reusable artifacts available in the reuse repository.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60004739",
+                        "afid": "60004739",
+                        "affilname": "Chungbuk National University",
+                        "affiliation-city": "Cheongju",
+                        "affiliation-country": "South Korea"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "3",
+                    "$": "3"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/55434971200",
+                        "authid": "55434971200",
+                        "authname": "Ali N.",
+                        "surname": "Ali",
+                        "given-name": "Nazakat",
+                        "initials": "N.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60004739"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57211112956",
+                        "authid": "57211112956",
+                        "authname": "Daneth H.",
+                        "surname": "Daneth",
+                        "given-name": "Horn",
+                        "initials": "H.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60004739"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/7404117852",
+                        "authid": "7404117852",
+                        "authname": "Hong J.",
+                        "surname": "Hong",
+                        "given-name": "Jang Eui",
+                        "initials": "J.E.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60004739"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "DevOps | reuse repository | software development process | software reuse",
+                "article-number": "e2248",
+                "source-id": "21100205112",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079086207"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079086207?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079086207&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079086207&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079086207",
+                "dc:identifier": "SCOPUS_ID:85079086207",
+                "eid": "2-s2.0-85079086207",
+                "dc:title": "Anomaly Detection in DevOps Toolchain",
+                "dc:creator": "Capizzi A.",
+                "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                "prism:issn": "03029743",
+                "prism:eIssn": "16113349",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030393052"
+                    }
+                ],
+                "prism:volume": "12055 LNCS",
+                "prism:pageRange": "37-51",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1007/978-3-030-39306-9_3",
+                "dc:description": "© 2020, Springer Nature Switzerland AG. The tools employed in the DevOps Toolchain generates a large quantity of data that is typically ignored or inspected only on particular occasions, at most. However, the analysis of such data could enable the extraction of useful information about the status and evolution of the project. For example, metrics like the “lines of code added since the last release” or “failures detected in the staging environment” are good indicators for predicting potential risks in the incoming release. In order to prevent problems appearing in later stages of production, an anomaly detection system can operate in the staging environment to compare the current incoming release with previous ones according to predefined metrics. The analysis is conducted before going into production to identify anomalies which should be addressed by human operators that address false-positive and negatives that can appear. In this paper, we describe a prototypical implementation of the aforementioned idea in the form of a “proof of concept”. The current study effectively demonstrates the feasibility of the approach for a set of implemented functionalities.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60105869",
+                        "afid": "60105869",
+                        "affilname": "Innopolis University",
+                        "affiliation-city": "Kazan",
+                        "affiliation-country": "Russian Federation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60011576",
+                        "afid": "60011576",
+                        "affilname": "Università degli Studi di Messina",
+                        "affiliation-city": "Messina",
+                        "affiliation-country": "Italy"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/118201147",
+                        "afid": "118201147",
+                        "affilname": "Khwaja Fareed University of Engineering and Information Technology",
+                        "affiliation-city": null,
+                        "affiliation-country": "Pakistan"
+                    }
+                ],
+                "prism:aggregationType": "Book Series",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "6",
+                    "$": "6"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57214781148",
+                        "authid": "57214781148",
+                        "authname": "Capizzi A.",
+                        "surname": "Capizzi",
+                        "given-name": "Antonio",
+                        "initials": "A.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60011576"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/17433851100",
+                        "authid": "17433851100",
+                        "authname": "Distefano S.",
+                        "surname": "Distefano",
+                        "given-name": "Salvatore",
+                        "initials": "S.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60011576"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57214777867",
+                        "authid": "57214777867",
+                        "authname": "Araújo L.",
+                        "surname": "Araújo",
+                        "given-name": "Luiz J.P.",
+                        "initials": "L.J.P.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60105869"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/8557895400",
+                        "authid": "8557895400",
+                        "authname": "Mazzara M.",
+                        "surname": "Mazzara",
+                        "given-name": "Manuel",
+                        "initials": "M.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60105869"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "5",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/55232255600",
+                        "authid": "55232255600",
+                        "authname": "Ahmad M.",
+                        "surname": "Ahmad",
+                        "given-name": "Muhammad",
+                        "initials": "M.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60011576"
+                            },
+                            {
+                                "@_fa": "true",
+                                "$": "118201147"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "6",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57214781486",
+                        "authid": "57214781486",
+                        "authname": "Bobrov E.",
+                        "surname": "Bobrov",
+                        "given-name": "Evgeny",
+                        "initials": "E.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60105869"
+                            }
+                        ]
+                    }
+                ],
+                "source-id": "25674",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079099244"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079099244?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079099244&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079099244&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079099244",
+                "dc:identifier": "SCOPUS_ID:85079099244",
+                "eid": "2-s2.0-85079099244",
+                "dc:title": "Towards a Model-Based DevOps for Cyber-Physical Systems",
+                "dc:creator": "Combemale B.",
+                "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                "prism:issn": "03029743",
+                "prism:eIssn": "16113349",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030393052"
+                    }
+                ],
+                "prism:volume": "12055 LNCS",
+                "prism:pageRange": "84-94",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1007/978-3-030-39306-9_6",
+                "dc:description": "© 2020, Springer Nature Switzerland AG. The emerging field of Cyber-Physical Systems (CPS) calls for new scenarios of the use of models. In particular, CPS require to support both the integration of physical and cyber parts in innovative complex systems or production chains, together with the management of the data gathered from the environment to drive dynamic reconfiguration at runtime or finding improved designs. In such a context, the engineering of CPS must rely on models to uniformly reason about various heterogeneous concerns all along the system life cycle. In the last decades, the use of models has been intensively investigated both at design time for driving the development of complex systems, and at runtime as a reasoning layer to support deployment, monitoring and runtime adaptations. However, the approaches remain mostly independent. With the advent of DevOps principles, the engineering of CPS would benefit from supporting a smooth continuum of models from design to runtime, and vice versa. In this vision paper, we introduce a vision for supporting model-based DevOps practices, and we infer the corresponding research roadmap for the modeling community to address this vision by discussing a CPS demonstrator.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60021931",
+                        "afid": "60021931",
+                        "affilname": "Johannes Kepler Universitat Linz",
+                        "affiliation-city": "Linz",
+                        "affiliation-country": "Austria"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60013373",
+                        "afid": "60013373",
+                        "affilname": "INRIA Institut National de Recherche en Informatique et en Automatique",
+                        "affiliation-city": "Le Chesnay",
+                        "affiliation-country": "France"
+                    }
+                ],
+                "prism:aggregationType": "Book Series",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "2",
+                    "$": "2"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/24343217800",
+                        "authid": "24343217800",
+                        "authname": "Combemale B.",
+                        "surname": "Combemale",
+                        "given-name": "Benoit",
+                        "initials": "B.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60013373"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/14030698000",
+                        "authid": "14030698000",
+                        "authname": "Wimmer M.",
+                        "surname": "Wimmer",
+                        "given-name": "Manuel",
+                        "initials": "M.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60021931"
+                            }
+                        ]
+                    }
+                ],
+                "source-id": "25674",
+                "fund-acr": "FWF",
+                "fund-no": "P28519-N31",
+                "fund-sponsor": "Austrian Science Fund",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85075642531"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85075642531?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85075642531&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85075642531&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85075642531",
+                "dc:identifier": "SCOPUS_ID:85075642531",
+                "eid": "2-s2.0-85075642531",
+                "dc:title": "8th International Conference on Software Process Improvement, CIMPS 2019",
+                "prism:publicationName": "Advances in Intelligent Systems and Computing",
+                "prism:issn": "21945357",
+                "prism:eIssn": "21945365",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030335465"
+                    }
+                ],
+                "prism:volume": "1071",
+                "prism:pageRange": null,
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "dc:description": "The proceedings contain 21 papers. The special focus in this conference is on International Conference on Software Process Improvement . The topics include: Gamification in Software Engineering: A Tertiary Study; knowledge Transfer in Software Companies Based on Machine Learning; linked Data and Musical Information to Improvement the Cultural and Heritage Knowledge Management; distributed System Based on Deep Learning for Vehicular Re-routing and Congestion Avoidance; from a Conceptual to a Computational Model of Cognitive Emotional Process for Engineering Students; Algorithm Proposal to Control a Robotic Arm for Physically Disable People Using the LCD Touch Screen; multithreading Programming for Feature Extraction in Digital Images; selection and Fusion of Color Channels for Ripeness Classification of Cape Gooseberry Fruits; model Driven Automatic Code Generation: An Evolutionary Approach to Disruptive Innovation Benefits; cluster Monitoring and Integration in Technology Company; objectives Patterns Applied to the Business Model of a Public Education System; a Data Driven Platform for Improving Performance Assessment of Software Defined Storage Solutions; teaching Approach for the Development of Virtual Reality Videogames; requirements Validation in the Information Systems Software Development: An Empirical Evaluation of Its Benefits for a Public Institution in Lima; towards a Social and Human Factor Classification Related to Productivity in Software Development Teams; software Product Quality in DevOps Contexts: A Systematic Literature Review; Reinforcing DevOps Generic Process with a Guidance Based on the Basic Profile of ISO/IEC 29110; a Selection Process of Graph Databases Based on Business Requirements.",
+                "citedby-count": "0",
+                "prism:aggregationType": "Book Series",
+                "subtype": "cr",
+                "subtypeDescription": "Conference Review",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "0"
+                },
+                "source-id": "5100152904",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85077234782"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85077234782?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85077234782&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85077234782&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85077234782",
+                "dc:identifier": "SCOPUS_ID:85077234782",
+                "eid": "2-s2.0-85077234782",
+                "dc:title": "Emerging Trends, Challenges, and Experiences in DevOps and Microservice APIs",
+                "dc:creator": "Zdun U.",
+                "prism:publicationName": "IEEE Software",
+                "prism:issn": "07407459",
+                "prism:eIssn": "19374194",
+                "prism:volume": "37",
+                "prism:issueIdentifier": "1",
+                "prism:pageRange": "87-91",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "January-February 2020",
+                "prism:doi": "10.1109/MS.2019.2947982",
+                "dc:description": "© 1984-2012 IEEE. In August 2019, we organized the second Vienna Software Seminar (VSS) with the topic \"DevOps and Microservice APIs.1 Embracing the positive reception of its first iteration in 2017,2 VSS is an opportunity for attendees to discuss recent software technologies, practices, and related research. The seminar's 34 participants included a mix of practitioners and academics, who were invited based on their roles and experiences. The explicit intention of the seminar was to provide ample opportunities for exchange and communication: six themed sessions consisted of one invited keynote and two lightning talks, giving different perspectives on the session?s topic and (ideally) sparking ideas for follow-up discussions. After the talks, all participants decided on subtopics for two to three breakout sessions (i.e., informal, self-organized discussions among interested participants). Breakout session topics included microservice security, tooling for application programming interface (API) evolution, serverless programming models, and identification of microservices using domaindriven design. The sessions provided opportunities for detailed discussions and identifying challenges to address in future collaborations. Toward the end of each session, all participants gathered once more to summarize the breakout discussions. Additional opportunities for communication were provided during shared lunch breaks and social events in the evenings.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60077068",
+                        "afid": "60077068",
+                        "affilname": "IBM Deutschland GmbH",
+                        "affiliation-city": "Ehningen",
+                        "affiliation-country": "Germany"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60025988",
+                        "afid": "60025988",
+                        "affilname": "Universitat Wien",
+                        "affiliation-city": "Vienna",
+                        "affiliation-country": "Austria"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60000990",
+                        "afid": "60000990",
+                        "affilname": "Chalmers University of Technology",
+                        "affiliation-city": "Göteborg",
+                        "affiliation-country": "Sweden"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "3",
+                    "$": "3"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/55908948800",
+                        "authid": "55908948800",
+                        "authname": "Zdun U.",
+                        "surname": "Zdun",
+                        "given-name": "Uwe",
+                        "initials": "U.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60025988"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/47062279200",
+                        "authid": "47062279200",
+                        "authname": "Wittern E.",
+                        "surname": "Wittern",
+                        "given-name": "Erik",
+                        "initials": "E.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60077068"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/18037605900",
+                        "authid": "18037605900",
+                        "authname": "Leitner P.",
+                        "surname": "Leitner",
+                        "given-name": "Philipp",
+                        "initials": "P.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60000990"
+                            }
+                        ]
+                    }
+                ],
+                "article-number": "8938118",
+                "source-id": "18709",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079668976"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079668976?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079668976&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079668976&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079668976",
+                "dc:identifier": "SCOPUS_ID:85079668976",
+                "eid": "2-s2.0-85079668976",
+                "dc:title": "AWS Infrastructure Automation and Security Prevention Using DevOps",
+                "dc:creator": "Vignesh S.",
+                "prism:publicationName": "Advances in Intelligent Systems and Computing",
+                "prism:issn": "21945357",
+                "prism:eIssn": "21945365",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9789811501982"
+                    }
+                ],
+                "prism:volume": "1056",
+                "prism:pageRange": "537-549",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1007/978-981-15-0199-9_46",
+                "dc:description": "© Springer Nature Singapore Pte Ltd 2020. In day-to-day process lead by organizations while creating new infrastructures, needs to have same software configurations on all the servers to maintain their security and privacy policies. Manually doing this process leads to configuration errors and takes an ample amount of time to achieve the desired configurations. In this paper, we have proposed an automation process of converting Open Virtualization Application/Appliance (OVA) to Amazon machine image (AMI) to provide security (IP-based attacks and port scan attacks) and to maintain privacy by creating user-defined AMIs and to reduce time consumption in setup installation and configuration by creating AMIs from templates of existing infrastructure. The whole process is been orchestrated with the help of some DevOps tools. The tools used in this process are Jenkins, Terraform, Chef, and AWS EC2 instance. By this proposed method, all servers on AWS will have the desired same configuration using the template OVA including the security and privacy prospects.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60106090",
+                        "afid": "60106090",
+                        "affilname": "Vellore Institute of Technology, Chennai",
+                        "affiliation-city": "Chennai",
+                        "affiliation-country": "India"
+                    }
+                ],
+                "prism:aggregationType": "Book Series",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "2",
+                    "$": "2"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57215452737",
+                        "authid": "57215452737",
+                        "authname": "Vignesh S.",
+                        "surname": "Vignesh",
+                        "given-name": "Siva",
+                        "initials": "S.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60106090"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/25646228400",
+                        "authid": "25646228400",
+                        "authname": "Kanna B.R.",
+                        "surname": "Kanna",
+                        "given-name": "B. Rajesh",
+                        "initials": "B.R.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60106090"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "Amazon machine image | AWS elastic cloud computing | Cloud computing | DevOps | Open virtualization application/appliance",
+                "source-id": "5100152904",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079101313"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079101313?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079101313&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079101313&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079101313",
+                "dc:identifier": "SCOPUS_ID:85079101313",
+                "eid": "2-s2.0-85079101313",
+                "dc:title": "Opunit: Sanity Checks for Computing Environments",
+                "dc:creator": "Mirhosseini S.",
+                "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                "prism:issn": "03029743",
+                "prism:eIssn": "16113349",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030393052"
+                    }
+                ],
+                "prism:volume": "12055 LNCS",
+                "prism:pageRange": "167-180",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1007/978-3-030-39306-9_12",
+                "dc:description": "© 2020, Springer Nature Switzerland AG. Computing environments, including virtual machines and containers, are essential components of modern software engineering infrastructure. Despite emerging tools that support the creation and configuration of computing environments, they are limited in testing and validating the construction of these environments. Furthermore, professionals and students new to these concepts, lack feedback on their construction efforts. In this paper, we argue that the design of environment testing tools should fundamentally support asserting essential properties, such as reachability and availability, in order to maximize usability and utility. We present opunit, an environment testing tool that supports assertion of these properties. We describe properties students failed to check when testing computing environments, which guided the design of opunit. Finally, we share our early experiences with using opunit in the classroom to support education and training in configuration of computing environments.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60004923",
+                        "afid": "60004923",
+                        "affilname": "NC State University",
+                        "affiliation-city": "Raleigh",
+                        "affiliation-country": "United States"
+                    }
+                ],
+                "prism:aggregationType": "Book Series",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "2",
+                    "$": "2"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57200514062",
+                        "authid": "57200514062",
+                        "authname": "Mirhosseini S.",
+                        "surname": "Mirhosseini",
+                        "given-name": "Samim",
+                        "initials": "S.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60004923"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/15136883200",
+                        "authid": "15136883200",
+                        "authname": "Parnin C.",
+                        "surname": "Parnin",
+                        "given-name": "Chris",
+                        "initials": "C.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60004923"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "Configuration management | DevOps training | Environment verification | Testing",
+                "source-id": "25674",
+                "fund-acr": "NSF",
+                "fund-no": "1814798",
+                "fund-sponsor": "National Science Foundation",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079088555"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079088555?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079088555&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079088555&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079088555",
+                "dc:identifier": "SCOPUS_ID:85079088555",
+                "eid": "2-s2.0-85079088555",
+                "dc:title": "Learning Agility from Dancers – Experience and Lesson Learnt",
+                "dc:creator": "Erofeeva I.",
+                "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                "prism:issn": "03029743",
+                "prism:eIssn": "16113349",
+                "prism:isbn": [
+                    {
+                        "@_fa": "true",
+                        "$": "9783030393052"
+                    }
+                ],
+                "prism:volume": "12055 LNCS",
+                "prism:pageRange": "112-120",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1007/978-3-030-39306-9_8",
+                "dc:description": "© 2020, Springer Nature Switzerland AG. Being on of the youngest field of human endeavours, software development absorbed features of other, older fields, especially engineering, mathematics, and economics. However, being software the product of the creation and being based on a systematic discipline and technical excellence of the participants (the developers), there could be also very interesting interconnections with artistic disciplines. In this paper, we concentrate on the similarities with dance. Dance has a long tradition of instructions and development. The goal of this work is to find interesting points of contact is to identify dancesport methods that could provide the basis for new approaches or practices for software development.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60105869",
+                        "afid": "60105869",
+                        "affilname": "Innopolis University",
+                        "affiliation-city": "Kazan",
+                        "affiliation-country": "Russian Federation"
+                    }
+                ],
+                "prism:aggregationType": "Book Series",
+                "subtype": "cp",
+                "subtypeDescription": "Conference Paper",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "4",
+                    "$": "4"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57205029823",
+                        "authid": "57205029823",
+                        "authname": "Erofeeva I.",
+                        "surname": "Erofeeva",
+                        "given-name": "Irina",
+                        "initials": "I.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60105869"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57195101229",
+                        "authid": "57195101229",
+                        "authname": "Ivanov V.",
+                        "surname": "Ivanov",
+                        "given-name": "Vladimir",
+                        "initials": "V.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60105869"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57205682636",
+                        "authid": "57205682636",
+                        "authname": "Masyagin S.",
+                        "surname": "Masyagin",
+                        "given-name": "Sergey",
+                        "initials": "S.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60105869"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "4",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/7004757466",
+                        "authid": "7004757466",
+                        "authname": "Succi G.",
+                        "surname": "Succi",
+                        "given-name": "Giancarlo",
+                        "initials": "G.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60105869"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "Ballroom dancing | Comparison | Dancesport | Development methodologies | Software development",
+                "source-id": "25674",
+                "fund-no": "undefined",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079786750"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079786750?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079786750&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079786750&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079786750",
+                "dc:identifier": "SCOPUS_ID:85079786750",
+                "eid": "2-s2.0-85079786750",
+                "dc:title": "On the effectiveness of tools to support infrastructure as code: Model-driven versus code-centric",
+                "dc:creator": "Sandobalin J.",
+                "prism:publicationName": "IEEE Access",
+                "prism:eIssn": "21693536",
+                "prism:volume": "8",
+                "prism:pageRange": "17734-17761",
+                "prism:coverDate": "2020-01-01",
+                "prism:coverDisplayDate": "2020",
+                "prism:doi": "10.1109/ACCESS.2020.2966597",
+                "dc:description": "© 2013 IEEE. Infrastructure as Code (IaC) is an approach for infrastructure automation that is based on software development practices. The IaC approach supports code-centric tools that use scripts to specify the creation, updating and execution of cloud infrastructure resources. Since each cloud provider offers a different type of infrastructure, the definition of an infrastructure resource (e.g., a virtual machine) implies writing several lines of code that greatly depend on the target cloud provider. Model-driven tools, meanwhile, abstract the complexity of using IaC scripts through the high-level modeling of the cloud infrastructure. In a previous work, we presented an infrastructure modeling approach and tool (Argon) for cloud provisioning that leverages model-driven engineering and supports the IaC approach. The objective of the present work is to compare a model-driven tool (Argon) with a well-known code-centric tool (Ansible) in order to provide empirical evidence of their effectiveness when defining the cloud infrastructure, and the participants' perceptions when using these tools. We, therefore, conducted a family of three experiments involving 67 Computer Science students in order to compare Argon with Ansible as regards their effectiveness, efficiency, perceived ease of use, perceived usefulness, and intention to use. We used the AB/BA crossover design to configure the individual experiments and the linear mixed model to statistically analyze the data collected and subsequently obtain empirical findings. The results of the individual experiments and meta-analysis indicate that Argon is more effective as regards supporting the IaC approach in terms of defining the cloud infrastructure. The participants also perceived that Argon is easier to use and more useful for specifying the infrastructure resources. Our findings suggest that Argon accelerates the provisioning process by modeling the cloud infrastructure and automating the generation of scripts for different DevOps tools when compared to Ansible, which is a code-centric tool that is greatly used in practice.",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60072054",
+                        "afid": "60072054",
+                        "affilname": "Escuela Politécnica Nacional",
+                        "affiliation-city": "Quito",
+                        "affiliation-country": "Ecuador"
+                    },
+                    {
+                        "@_fa": "true",
+                        "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60011476",
+                        "afid": "60011476",
+                        "affilname": "Universitat Politècnica de València",
+                        "affiliation-city": "Valencia",
+                        "affiliation-country": "Spain"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "author-count": {
+                    "@limit": "100",
+                    "@total": "3",
+                    "$": "3"
+                },
+                "author": [
+                    {
+                        "@_fa": "true",
+                        "@seq": "1",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/57196234105",
+                        "authid": "57196234105",
+                        "authname": "Sandobalin J.",
+                        "surname": "Sandobalin",
+                        "given-name": "Julio",
+                        "initials": "J.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60072054"
+                            },
+                            {
+                                "@_fa": "true",
+                                "$": "60011476"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "2",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/6506793505",
+                        "authid": "6506793505",
+                        "authname": "Insfran E.",
+                        "surname": "Insfran",
+                        "given-name": "Emilio",
+                        "initials": "E.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60011476"
+                            }
+                        ]
+                    },
+                    {
+                        "@_fa": "true",
+                        "@seq": "3",
+                        "author-url": "https://api.elsevier.com/content/author/author_id/8211929700",
+                        "authid": "8211929700",
+                        "authname": "Abrahao S.",
+                        "surname": "Abrahao",
+                        "given-name": "Silvia",
+                        "initials": "S.",
+                        "afid": [
+                            {
+                                "@_fa": "true",
+                                "$": "60011476"
+                            }
+                        ]
+                    }
+                ],
+                "authkeywords": "controlled experiments | crossover design | DevOps | Infrastructure as code | linear mixed model | model-driven engineering",
+                "article-number": "8959180",
+                "source-id": "21100374601",
+                "fund-acr": "EPN",
+                "fund-no": "TIN2017-84550-R",
+                "fund-sponsor": "Escuela PolitÃ©cnica Nacional",
+                "openaccess": "1",
+                "openaccessFlag": true
+            }
+        ]
+    }
+}

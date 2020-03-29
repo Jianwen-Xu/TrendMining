@@ -1,4 +1,5 @@
 library(rscopus)
+library(jsonlite)
 
 get_scopus_papers_per_year = function (search_string, domain="software testing", years=(2000:2017)){
   
@@ -61,11 +62,11 @@ get_scopus_papers = function (query_string){
     #https://api.elsevier.com/documentation/SCOPUSSearchAPI.wadl
     #https://dev.elsevier.com/guides/ScopusSearchViews.htm
     #Scopus response https://dev.elsevier.com/payloads/search/scopusSearchResp.json
-    resp = generic_elsevier_api(query=query_string, type="search", search_type="scopus", cursor=cursor_value, view="COMPLETE")
-    
-    if (resp$get_statement$status_code != 200) {
-      stop(paste(resp))
-    }
+    #resp = generic_elsevier_api(query=query_string, type="search", search_type="scopus", cursor=cursor_value, view="COMPLETE")
+    resp$content = read_json("scopus.json")
+    #if (resp$get_statement$status_code != 200) {
+    #  stop(paste(resp))
+    #}
     
     if (first_round){
       found_items_num = as.numeric(
